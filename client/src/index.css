@@ -12,5 +12,6 @@
 
 .component {
 	width: 77%;
-	min-height: 100vh;
+	max-height: 90vh;
+	overflow-y: scroll;
 }

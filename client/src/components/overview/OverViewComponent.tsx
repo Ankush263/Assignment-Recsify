@@ -1,12 +1,22 @@
-import { Card, Text } from '@shopify/polaris';
+import OptimizationCard from './OptimizationCard';
+import ConvertCard from './ConvertCard';
+import AdvanceImgCard from './AdvanceImgCard';
 
 function OverViewComponent() {
 	return (
-		<Card>
-			<Text as="h2" variant="bodyMd">
-				Content inside a card
-			</Text>
-		</Card>
+		<div
+			style={{
+				height: '100%',
+				display: 'flex',
+				flexDirection: 'column',
+				gap: '30px',
+				marginBottom: '30px',
+			}}
+		>
+			<OptimizationCard />
+			<ConvertCard />
+			<AdvanceImgCard />
+		</div>
 	);
 }
 
