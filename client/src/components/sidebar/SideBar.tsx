@@ -4,7 +4,6 @@ export default function SideBar(props: {
 	setComponentVal: (arg0: string) => void;
 }) {
 	const handleSelect = (value: string) => {
-		console.log(value);
 		props.setComponentVal(value);
 	};
 	return (
